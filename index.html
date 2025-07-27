@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Jogo de Tabuleiro: Eficiência Energética</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="game">
+    <div id="board" class="board"></div>
+
+    <div id="controls">
+      <button id="rollBtn">Rodar Dado</button>
+      <span id="diceResult">Vez do Jogador 1</span>
+    </div>
+
+    <!-- Modal de Pergunta -->
+    <div id="modal" class="hidden">
+      <div id="questionContainer">
+        <p id="questionText"></p>
+        <div id="options">
+          <button class="optionBtn" data-option="A"></button>
+          <button class="optionBtn" data-option="B"></button>
+          <button class="optionBtn" data-option="C"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
